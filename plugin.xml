@@ -2,7 +2,7 @@
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
         xmlns:android="http://schemas.android.com/apk/res/android"
         id="cordova-plugin-google-auth"
-        version="1.0.0">
+        version="1.0.1">
     <name>Google Auth</name>
     <description>Sign in with Google through Android Credential Manager with a legacy compatibility fallback.</description>
     <license>MIT</license>
@@ -14,7 +14,6 @@
 
     <js-module src="www/GoogleAuth.js" name="GoogleAuth">
         <clobbers target="GoogleAuth" />
-        <clobbers target="ArgimGoogleAuth" />
     </js-module>
 
     <hook type="after_prepare" src="hooks/android/after_prepare.js" />

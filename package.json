@@ -1,6 +1,6 @@
 {
   "name": "cordova-plugin-google-auth",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Cordova bridge for Sign in with Google using Android Credential Manager with a legacy compatibility fallback.",
   "cordova": {
     "id": "cordova-plugin-google-auth",

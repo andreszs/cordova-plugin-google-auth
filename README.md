@@ -25,8 +25,6 @@ Or directly from GitHub:
 cordova plugin add https://github.com/andreszs/cordova-plugin-google-auth.git
 ```
 
-When migrating from `cordova-plugin-argim-google-auth`, remove the old plugin before adding this one. Both expose the same `login` options, success result, and error callback. The old `ArgimGoogleAuth` JavaScript global remains available as a compatibility alias.
-
 ## Usage
 
 ```javascript
