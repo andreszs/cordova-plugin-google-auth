@@ -1,0 +1,43 @@
+{
+  "name": "cordova-plugin-google-auth",
+  "version": "1.0.0",
+  "description": "Cordova bridge for Sign in with Google using Android Credential Manager with a legacy compatibility fallback.",
+  "cordova": {
+    "id": "cordova-plugin-google-auth",
+    "platforms": [
+      "android"
+    ]
+  },
+  "keywords": [
+    "cordova",
+    "android",
+    "credential-manager",
+    "google-sign-in",
+    "google-auth",
+    "oauth"
+  ],
+  "homepage": "https://github.com/andreszs/cordova-plugin-google-auth#readme",
+  "bugs": {
+    "url": "https://github.com/andreszs/cordova-plugin-google-auth/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andreszs/cordova-plugin-google-auth.git"
+  },
+  "author": "Andrés Zsögön",
+  "files": [
+    "plugin.xml",
+    "hooks/",
+    "src/",
+    "www/"
+  ],
+  "engines": {
+    "cordovaDependencies": {
+      "1.0.0": {
+        "cordova": ">=11.0.0",
+        "cordova-android": ">=11.0.0"
+      }
+    }
+  },
+  "license": "MIT"
+}
