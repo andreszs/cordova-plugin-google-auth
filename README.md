@@ -1,8 +1,14 @@
-![npm downloads](https://img.shields.io/npm/dt/cordova-plugin-google-auth) ![npm version](https://img.shields.io/npm/v/cordova-plugin-google-auth) ![GitHub package.json version](https://img.shields.io/github/package-json/v/andreszs/cordova-plugin-google-auth?color=FF6D00&label=main&logo=github) ![GitHub code size](https://img.shields.io/github/languages/code-size/andreszs/cordova-plugin-google-auth) ![GitHub top language](https://img.shields.io/github/languages/top/andreszs/cordova-plugin-google-auth) ![GitHub license](https://img.shields.io/github/license/andreszs/cordova-plugin-google-auth) ![GitHub last commit](https://img.shields.io/github/last-commit/andreszs/cordova-plugin-google-auth)
+![npm downloads](https://img.shields.io/npm/dt/cordova-plugin-google-auth) ![npm version](https://img.shields.io/npm/v/cordova-plugin-google-auth) ![GitHub package.json version](https://img.shields.io/github/package-json/v/andreszs/cordova-plugin-google-auth?color=FF6D00&label=main&logo=github) ![GitHub license](https://img.shields.io/github/license/andreszs/cordova-plugin-google-auth)
 
 # cordova-plugin-google-auth
 
 Cordova Android bridge for Sign in with Google. It requests an ID token through Android Credential Manager and falls back to the legacy Google Sign-In account chooser when Credential Manager or its Play Services provider cannot supply a credential. User cancellation does not trigger the fallback.
+
+## Table of contents
+
+- [Requirements](#requirements)
+- [Installation](#installation)
+- [Usage](#usage)
 
 ## Requirements
 
